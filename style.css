@@ -42,6 +42,44 @@ article > p {
   #float:left;
 }
 
+#category {
+  font-family: arial;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#heading {
+  width: 1045px;
+  position: relative;
+  left: -140px;
+}
+
+#auth,
+#comment-count {
+  position: relative;
+  top: -20px;
+}
+
+#figure1 {
+  position: relative;
+  left: -180px;
+}
+#figure1 > figcaption {
+  width: 660px;
+}
+
+#figure2 {
+  position: relative;
+  left: -40px;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 34px;
+  font-weight: 700;
+  border-bottom: 1px solid black;
+}
+
 h2 {
   font-size: 20px;
 }
