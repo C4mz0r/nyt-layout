@@ -1,0 +1,98 @@
+
+
+/* container div controls the margins on each side */
+#acontainer {
+  position: absolute;
+  bottom: 10px;
+  #height: 100%;
+  top: 10px;
+  left: 10%;
+  right: 10%;
+  border: 1px solid grey;
+  background: red;
+  overflow: hidden;
+
+}
+
+/* Credit to http://www.lwis.net/journal/2008/02/08/pure-css-sticky-footer/ 
+   Really helped me get my container to take up the whole page */
+html, body, #container { height: 100%; }
+body > #container { 
+  height: auto;
+  min-height: 100%;
+  border: 1px solid red; 
+  width: 80%;
+  margin: auto;
+}
+
+footer {
+ clear: both;
+ position: relative;
+ #z-index: 10;
+ #height: 3em;
+}
+
+
+article {
+  width: 42%;
+  margin-left: 30%;
+}
+
+article > p {
+  #float:left;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.gridarea {
+  display: inline-block;
+  width: 200px;
+  font-family: arial;
+  font-size: 14px;
+  margin:0 auto;
+  #border: 1px solid red;
+  vertical-align: top;
+ 
+  
+}
+
+#image-container{
+  position:relative;
+  margin-top: -30px;
+}
+
+#image-container > img {
+  #margin-bottom: -30px;
+}
+
+.toptext{
+  position: relative;
+  top: 180px;
+  height: 0;
+  width: 24%;
+}
+
+.bottomtext{
+  position: relative;
+  top: 420px;
+  height: 0;
+  width: 24%;
+}
+
+#authors{
+  font-size: 12px;
+  color: #999;
+  font-family: arial;
+  position: relative;
+  top: -15px;
+}
+
+#aside {
+  margin-left: -100px;
+  width: 150%;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey; 
+  bottom: -250px;
+}
